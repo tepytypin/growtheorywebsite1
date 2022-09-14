@@ -1,0 +1,49 @@
+
+
+/* LAPTOP */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    aside {
+        width: 20%;
+        float: right;
+    }
+    main {
+        float: left;
+        width: 70%;
+    }
+}
+
+
+
+
+
+/* Desktop: 1248px */
+@media only screen and (min-width: 1248px) {
+    body {
+        background-color: rgb(54, 131, 179);
+        width: 75%;
+        margin: 0 auto;
+    }
+    .menu {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+    }
+}
+
+
+/* TABLET */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    .menu {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+    }
+}
